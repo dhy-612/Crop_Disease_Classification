@@ -125,23 +125,6 @@ Low-confidence predictions should be escalated for expert review.
 -   Python 3.10 or a compatible Python version supported by your
     TensorFlow installation
 -   pip
--   Git (optional)
-
-### Create and activate a virtual environment
-
-**Windows (PowerShell):**
-
-``` powershell
-python -m venv .venv
-.venv\Scripts\Activate.ps1
-```
-
-**macOS / Linux:**
-
-``` bash
-python3 -m venv .venv
-source .venv/bin/activate
-```
 
 ### Install dependencies
 
@@ -169,7 +152,7 @@ application was tested, and pin the exact working package versions in
 
 ## 8. Running the Notebook
 
-1.  Open the notebook from the `notebooks/` folder in Jupyter Notebook,
+1.  Open the notebook from the `main.ipynb` file in Jupyter Notebook,
     JupyterLab, or VS Code.
 2.  Download and extract the PlantVillage dataset.
 3.  Update `DATASET_PATH` in the notebook to point to the extracted
