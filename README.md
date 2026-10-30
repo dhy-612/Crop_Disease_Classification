@@ -38,8 +38,11 @@ Crop_Disease_Classification/
 ├── main.ipynb
 │
 ├── model_artifacts/
+│   └── best_mobilenetv2.keras
 │   └── best_mobilenetv2.weights.h5
+│   └── class_names.json
 │
+├── Crop_Disease_Classification_Presentation.pptx
 ├── app.py
 ├── class_names.json
 ├── requirements.txt
