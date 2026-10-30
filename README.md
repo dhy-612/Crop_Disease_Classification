@@ -35,7 +35,7 @@ categories are retained as separate classes.
 ``` text
 Crop_Disease_Classification/
 │
-├── crop_disease_classification.ipynb
+├── main.ipynb
 │
 ├── model_artifacts/
 │   └── best_mobilenetv2.weights.h5
